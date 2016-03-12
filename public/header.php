@@ -6,7 +6,7 @@
       <table width=100%>
 		  <tr>
 		  <td valign=top width=250px align=center>
-				<a href="index.php"><img src="coolestguy.jpg" alt="coolest guy in america" width="200px"></a>
+				<a href="index.php"><img src="images/coolestguy.jpg" alt="coolest guy in america" width="200px"></a>
 				<br>
 			<center><i>The Coolest Guy in America, himself.</i></center>
 			<script type="text/javascript"><!--

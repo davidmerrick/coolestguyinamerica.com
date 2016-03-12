@@ -13,7 +13,7 @@
       <table width=100%>
 		  <tr>
 		  <td valign=top width=250px align=center>
-				<a href="index.php"><img src="collin.jpg" alt="coolest guy in america" width="200px"></a>
+				<a href="index.php"><img src="images/collin.jpg" alt="coolest guy in america" width="200px"></a>
 				<br>
 			<center><i>You're looking at the Coolest Guy in the USA</i></center>
 			</td>

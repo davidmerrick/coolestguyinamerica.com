@@ -42,7 +42,7 @@
 		<p>
         <h2>Wesley Risenmay is pretty cool, too</h2>
         Due to his mad golf and ping pong skills (and betting abilities), as proven during an epic, neck-in-neck golf and ping-pong championship in which <strike>he won both</strike> we tied, I crown Wesley Risenmay Co-"Coolest Guy in America."
-        <img src="wes.jpg" />
+        <img src="images/wes.jpg" />
 
 		My good friend, Collin McCready, is the <a href="coolest-usa.php">Coolest Guy in the USA</a>.
 
