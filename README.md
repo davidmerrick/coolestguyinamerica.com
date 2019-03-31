@@ -1,3 +1,5 @@
-Source code for https://www.coolestguyinamerica.com
+Source code for https://www.coolestguyinamerica.com.
 
-For now, just a bunch of static HTML files designed to live on S3
+Fun fact: I'm the first search result on Google for ["coolest guy in America"](https://www.google.com/search?q=coolest+guy+in+america) 🙂.
+
+For now, just a bunch of static HTML files that live on S3.
