@@ -20,4 +20,4 @@ jobs:
     - name: Deploy static site to S3 bucket
       run: aws s3 sync public/ s3://coolestguyinamerica.com
     - name: Invalidate CloudFront cache
-      run: aws cloudfront create-invalidation --distribution-id E1QSIGUPFIQ9AC
+      run: aws cloudfront create-invalidation --distribution-id E1QSIGUPFIQ9AC --paths "/*"
