@@ -4,7 +4,7 @@ Fun fact: I'm the first search result on Google for ["coolest guy in America"](h
 
 # Running locally
 
-This is a NodeJS project built with React, which uses Parcel for bundling.
+This is a NodeJS project built with React, which uses [Parcel](https://parceljs.org/) for bundling.
 
 To install and run it locally, run:
 
