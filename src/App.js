@@ -1,30 +1,25 @@
+import {Grid} from "@mui/material";
+import {BodyText} from "./BodyText";
 import Typography from "@mui/material/Typography";
-import Card from "@mui/material/Card";
-import Box from "@mui/material/Box";
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-8004148-7');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 export function App() {
-  return <Card>
-    <Typography variant="h1">David Merrick is the Coolest Guy in America</Typography>
-
-    <Box
-      component="img"
-      sx={{
-        height: 1200,
-        maxHeight: { xs: 300, md: 500 },
-      }}
-      alt="The coolest guy, himself"
-      src="coolestguy.jpg"
-    />
-
-    <Typography variant="body1">
-      Oh hey there &#128075;. I'm David. This was a site I ranked on Google as a prank
-      way back in 2009. I was browsing for domains, and realized that
-      coolestguyinamerica.com wasn't taken, so I bought it for $10.
-      <br/>
-      <br/>
-      For more on me, check out my main website,
-      <a href="https://www.david-merrick.com">www.david-merrick.com</a> or my <a
-      href="https://github.com/davidmerrick">GitHub</a>.
-    </Typography>
-  </Card>
+    return <Grid container spacing={2}>
+        <Grid item xs={12}>
+            <Typography variant="h1">David Merrick is the Coolest Guy in America</Typography>
+        </Grid>
+        <Grid item xs={4}
+              justify="space-between"
+              style={{
+                  backgroundImage: `url(coolestguy.jpg)`,
+                  height: '800px',
+                  backgroundSize: 'cover'
+              }}
+        />
+        <Grid item xs={4}>
+            <BodyText></BodyText>
+        </Grid>
+    </Grid>
 }

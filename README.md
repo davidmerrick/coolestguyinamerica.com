@@ -2,6 +2,17 @@ Source code for https://www.coolestguyinamerica.com.
 
 Fun fact: I'm the first search result on Google for ["coolest guy in America"](https://www.google.com/search?q=coolest+guy+in+america) 🙂.
 
+# Running locally
+
+This is a NodeJS project built with React, which uses Parcel for bundling.
+
+To install and run it locally, run:
+
+* `yarn install`
+* `yarn start`
+
+Then visit http://localhost:1234 in your browser.
+
 # Infrastructure
 
 This site has CloudFormation templates for deployment to AWS. Its infrastructure consists of:
